@@ -1,0 +1,165 @@
+Here’s a complete and professional README.md for your v0 version of RationChain — the Public Distribution Tracker built for HackIndia 2025:
+
+
+---
+
+🌾 RationChain – Public Distribution Tracker
+
+> Built for HackIndia 2025
+A Web3 + AI-powered solution to bring transparency, geo-verification, and trust to India's Public Distribution System (PDS).
+
+
+
+
+---
+
+🚀 Overview
+
+RationChain is a decentralized ration tracking platform focused on empowering citizens, reducing fraud, and ensuring timely delivery of essential commodities.
+
+Core Highlights:
+
+Smart Contracts record all delivery events on-chain.
+
+Chainlink Functions validate timestamp and geolocation.
+
+MetaMask Integration enables wallet-based authentication.
+
+Dashboards for NGOs and volunteers to monitor distributions.
+
+Trust Score System and Grievance Redressal built on-chain.
+
+
+This is the v0 version — a fully functional MVP with working backend, smart contracts, APIs, and frontend built with V0.dev.
+
+
+---
+
+🧱 Tech Stack
+
+
+---
+
+🗂 Folder Structure
+
+RationChain/
+│
+├── contracts/              # Smart contracts (Solidity)
+├── backend/                # Express.js backend APIs
+│   ├── controllers/
+│   ├── routes/
+│   ├── models/
+│   └── server.js
+│
+├── frontend/               # V0.dev generated React frontend
+│   ├── components/
+│   ├── pages/
+│   ├── services/
+│   └── App.js
+│
+├── scripts/                # Deployment scripts for smart contracts
+├── .env                    # Environment variables
+├── README.md               # Project documentation
+└── hardhat.config.js       # Hardhat config
+
+
+---
+
+⚙ Setup Instructions
+
+1. Clone the Repository
+
+git clone https://github.com/yourusername/rationchain.git
+cd rationchain
+
+2. Smart Contracts
+
+cd contracts
+npm install
+npx hardhat compile
+
+3. Backend Setup
+
+cd ../backend
+npm install
+
+Create a .env file:
+
+PORT=3000
+MONGO_URI=your_mongodb_uri
+JWT_SECRET=your_jwt_secret
+CHAINLINK_API_KEY=optional_if_used
+
+Run backend server:
+
+npm run dev
+
+4. Frontend Setup
+
+cd ../frontend
+npm install
+npm start
+
+
+---
+
+🔐 Authentication
+
+Wallet-based login using MetaMask
+
+JWT for API route protection (backend)
+
+
+
+---
+
+🧪 API Endpoints
+
+All routes are authenticated using JWT and connected to the smart contracts.
+
+
+---
+
+✨ Features
+
+Smart contract interaction for immutable logs
+
+Geo-verification using Chainlink Functions
+
+Real-time dashboards for NGOs
+
+Trust score algorithm (AI-integrated)
+
+Grievance and feedback management
+
+Fully responsive UI
+
+
+
+---
+
+✅ To-Do / Future Scope
+
+Deploy smart contracts to testnet/mainnet
+
+Implement Chainlink GPS & timestamp oracle
+
+Add pagination and filtering for dashboard
+
+Integrate AI-based Trust Score analysis
+
+Unit testing and security audit for contracts
+
+
+
+---
+
+🛡 License
+
+This project is licensed under the MIT License.
+
+
+---
+
+Let me know if you want a demo video section,
+ deployment instructions (Vercel/Netlify/Polygon), or a contributor section added!
