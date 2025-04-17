@@ -161,5 +161,3 @@ This project is licensed under the MIT License.
 
 ---
 
-Let me know if you want a demo video section,
- deployment instructions (Vercel/Netlify/Polygon), or a contributor section added!
